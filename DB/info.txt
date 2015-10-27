@@ -1,0 +1,3 @@
+Primary Key = ID
+FIRSTNAMEUNIQUE = UNIQUE
+Unique index=index_1 for column "ID"
