@@ -6,6 +6,11 @@
     </database-info>
     <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
     <schema name="PUBLIC" catalog="PUBLIC"/>
+    <table name="TABLE_NAME" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="NAME" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="SYS_PK_10130" columns="ID"/>
+    </table>
     <table name="TESTTABLE" schema="PUBLIC" catalog="PUBLIC" type="TABLE">
       <column name="ID" sqlType="INTEGER" precision="32" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="FIRSTNAMEUNIQUE" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>

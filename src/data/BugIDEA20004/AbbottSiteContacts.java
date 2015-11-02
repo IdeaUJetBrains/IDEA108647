@@ -12,7 +12,7 @@ import java.util.Collection;
  * Created by Olga Pavlova on 10/29/2015.
  */
 @Entity
-@Table(schema = "PUBLIC", name = "TESTTABLE")
+@Table(schema = "PUBLIC", name = "TABLE_NAME")
 public class AbbottSiteContacts {
     @Id
     int id;
@@ -21,13 +21,13 @@ public class AbbottSiteContacts {
 
 
     @ManyToMany(mappedBy = "id")
-    private Collection<Testtable> ab;
+    private Collection<MytableEntity> ab;
 
-    public Collection<Testtable> getAb() {
+    public Collection<MytableEntity> getAb() {
         return ab;
     }
 
-    public void setAb(Collection<Testtable> ab) {
+    public void setAb(Collection<MytableEntity> ab) {
         this.ab = ab;
     }
 }
