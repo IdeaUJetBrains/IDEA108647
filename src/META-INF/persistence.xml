@@ -16,5 +16,22 @@
             <property name="hibernate.format_sql" value="true"/>
             <property name="hbm2ddl.auto" value="update"/>
         </properties>
+
+    </persistence-unit>
+    <persistence-unit name="MyUnit">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>data.BugIDEA20004.AbbottSiteContacts</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:\Users\Olga Pavlova\IdeaProjects\IDEA108647\DB\temp1/TESTDB"/>
+            <!--<property name="hibernate.connection.url" value="jdbc:hsqldb:hsql://localhost/TESTDB"/>-->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
+            <property name="hibernate.connection.driver_class" value="org.hsqldb.jdbc.JDBCDriver"/>
+            <property name="hibernate.connection.username" value="SA"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hbm2ddl.auto" value="update"/>
+        </properties>
     </persistence-unit>
 </persistence>
