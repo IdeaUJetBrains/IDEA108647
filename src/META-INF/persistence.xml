@@ -4,6 +4,14 @@
     <persistence-unit name="NewPersistenceUnit">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <class>data.Testtable</class>
+        <class>data.IDEA20005.test.Bussdrivers</class>
+        <class>data.IDEA20005.test.Busses</class>
+        <class>data.IDEA20005.test.Drivers</class>
+        <class>data.IDEA20005.test1.Busses</class>
+        <class>data.IDEA20005.test1.Drivers</class>
+        <class>data.IDEA20005.test.Customer</class>
+        <class>data.IDEA20005.test.Customerorder</class>
+        <class>data.IDEA20005.test.Order</class>
         <properties>
             <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:\Users\Olga Pavlova\IdeaProjects\IDEA108647\DB\temp1/TESTDB"/>
             <!--<property name="hibernate.connection.url" value="jdbc:hsqldb:hsql://localhost/TESTDB"/>-->

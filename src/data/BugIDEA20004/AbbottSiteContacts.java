@@ -12,7 +12,7 @@ import java.util.Collection;
  * Created by Olga Pavlova on 10/29/2015.
  */
 @Entity
-@Table(schema = "PUBLIC", name = "TABLE_NAME")
+@Table(name = "TABLE_NAME")
 public class AbbottSiteContacts {
     @Id
     int id;
