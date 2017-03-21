@@ -21,4 +21,13 @@ public class CompositeEntity {
         int departmentId;
         long projectId;
     }
+
+
+    /*@Embeddable
+    public class ZipCode1 {
+        String zip;
+        String plusFour;
+
+    }*/
+
 }

@@ -29,6 +29,8 @@
     <persistence-unit name="MyUnit">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <class>data.BugIDEA20004.AbbottSiteContacts</class>
+        <class>data.IDEA16107.TestentityWithEmbeddedID</class>
+        <class>data.IDEA16107.TestentityWithPK</class>
         <properties>
             <property name="hibernate.connection.url" value="jdbc:hsqldb:file:C:\Users\Olga Pavlova\IdeaProjects\IDEA108647\DB\temp1/TESTDB"/>
             <!--<property name="hibernate.connection.url" value="jdbc:hsqldb:hsql://localhost/TESTDB"/>-->
